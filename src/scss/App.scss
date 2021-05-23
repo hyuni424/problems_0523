@@ -1,0 +1,30 @@
+*{margin:0; padding:0;}
+
+#exCont{
+    width:100%;
+    font-size: 14px;
+    font-family: Noto Sans KR;
+    #exLeft{
+        width:50%;
+        float:left;
+        h2{
+            padding:13px 0 13px 20px;     
+            font-size: 14px;
+        }
+    }
+    #exRight{
+        width:50%;
+        float:left;
+        h2{
+            padding:13px 0;        
+            text-align:center;
+            font-size: 14px;
+        }
+    }
+    
+    &::after{
+        content:"";
+        display: block;
+        clear: both;
+    }    
+}
